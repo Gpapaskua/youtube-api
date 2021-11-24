@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Titan+One&display=swap");
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.darkmode {
+  background-color: #000;
+}
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #00B4CC;
+  border-right: none;
+  padding: 5px;
+  height: 50px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: #00B4CC;
+}
+
+.searchButton {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #00B4CC;
+  background: #00B4CC;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.wrapper {
+  width: 100vw;
+  text-align: center;
+ 
+}
+
+.wrapper  span {
+  -webkit-text-stroke-width: 1.25px;
+  -webkit-text-stroke-color: #000;
+  font-size: 42px;
+  text-shadow: 0 0px #f3c623, 0 0px #f2aaaa;
+  transform: translate(0, 100%) rotate(4deg);
+  animation: jump 2s ease-in-out infinite;
+  display: inline-block;
+  font-family: "Titan One", cursive;
+  color: #fff;
+
+}
+
+.video {
+  position: relative;
+  animation-name: slide;
+  animation-duration: 1.5s;
+  transition: position 250ms;
+  
+}
+
+.fade-search {
+  position: relative;
+  animation: fadeAnimation 250ms;
+  transition: position 250ms ease-out;
+}
+
+.detail {
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  left: 0;
+  animation-name: detailAnimation;
+  animation-duration:  250ms;
+  transition: background-color 250ms linear;
+  z-index: 10;
+}
+
+.video:hover {
+  cursor: pointer;
+  transform: translateY(-10px);
+}
+
+.video:hover .detail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.82);
+ 
+}
+
+
+@keyframes jump {
+  33% {
+    text-shadow: 0 10px #f37121, 0 20px #f2aaaa;
+  }
+  50% {
+    font-size: 64px;
+    text-shadow: 0 0px #8fc0a9, 0 0px #84a9ac;
+  }
+  66.67% {
+    text-shadow: 0 -10px #d54062, 0 -20px #8fc0a9;
+  }
+}
+
+@keyframes slide {
+  0%{
+    bottom: -1000px;
+  }
+  100%{
+    bottom: 0;
+  }
+}
+
+@keyframes detailAnimation {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+@keyframes fadeAnimation {
+  0% {
+    top: 0;
+  }
+  100% {
+    top: -1000px;
+  }
+}
+
+
+
+
