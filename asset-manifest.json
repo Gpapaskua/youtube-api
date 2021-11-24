@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/youtube-api/static/css/main.ddf49c84.chunk.css",
-    "main.js": "/youtube-api/static/js/main.7801f272.chunk.js",
-    "main.js.map": "/youtube-api/static/js/main.7801f272.chunk.js.map",
-    "runtime-main.js": "/youtube-api/static/js/runtime-main.c6d9066a.js",
-    "runtime-main.js.map": "/youtube-api/static/js/runtime-main.c6d9066a.js.map",
-    "static/js/2.6f5d4702.chunk.js": "/youtube-api/static/js/2.6f5d4702.chunk.js",
-    "static/js/2.6f5d4702.chunk.js.map": "/youtube-api/static/js/2.6f5d4702.chunk.js.map",
-    "static/js/3.ec260969.chunk.js": "/youtube-api/static/js/3.ec260969.chunk.js",
-    "static/js/3.ec260969.chunk.js.map": "/youtube-api/static/js/3.ec260969.chunk.js.map",
+    "main.js": "/youtube-api/static/js/main.f47f4afc.chunk.js",
+    "main.js.map": "/youtube-api/static/js/main.f47f4afc.chunk.js.map",
+    "runtime-main.js": "/youtube-api/static/js/runtime-main.b7ea77b5.js",
+    "runtime-main.js.map": "/youtube-api/static/js/runtime-main.b7ea77b5.js.map",
+    "static/js/2.d9bdd848.chunk.js": "/youtube-api/static/js/2.d9bdd848.chunk.js",
+    "static/js/2.d9bdd848.chunk.js.map": "/youtube-api/static/js/2.d9bdd848.chunk.js.map",
+    "static/js/3.acd90071.chunk.js": "/youtube-api/static/js/3.acd90071.chunk.js",
+    "static/js/3.acd90071.chunk.js.map": "/youtube-api/static/js/3.acd90071.chunk.js.map",
     "index.html": "/youtube-api/index.html",
     "static/css/main.ddf49c84.chunk.css.map": "/youtube-api/static/css/main.ddf49c84.chunk.css.map",
-    "static/js/2.6f5d4702.chunk.js.LICENSE.txt": "/youtube-api/static/js/2.6f5d4702.chunk.js.LICENSE.txt"
+    "static/js/2.d9bdd848.chunk.js.LICENSE.txt": "/youtube-api/static/js/2.d9bdd848.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.c6d9066a.js",
-    "static/js/2.6f5d4702.chunk.js",
+    "static/js/runtime-main.b7ea77b5.js",
+    "static/js/2.d9bdd848.chunk.js",
     "static/css/main.ddf49c84.chunk.css",
-    "static/js/main.7801f272.chunk.js"
+    "static/js/main.f47f4afc.chunk.js"
   ]
 }
